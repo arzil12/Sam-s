@@ -1,1 +1,2 @@
-#Sam-s
+Sam...
+Just an ordinary boy
