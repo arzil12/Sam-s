@@ -40,3 +40,47 @@ function warna(pilihan){
 <tr>
 <td width="100%" colspan="2"><H2 ALIGN="center">Biodata Mahasiswa</H2></td>
 </tr>
+<tr>
+<td width="50%"><PRE>
+Nama           : <input type="text" size="30" name="inama"> <br>
+NIM            : <input type="text" size="12" name="inim"> <br>
+Agama          : <select name="iagama" size=1>
+<option value="Islam">Islam</option>
+<option value="Katolik">Katolik</option>
+<option value="Protestan">Protestan</option>
+<option value="Hindu">Hindu</option>
+<option value="Buddha">Buddha</option>
+<option value="Khonghucu">Khonghucu</option>
+</select> <br>
+Jenis Kelamin  : <input type="radio" name="ijenis" size="1" value="Pria"> Pria
+		 <input type="radio" name="ijenis" size="1" value="Wanita"> Wanita <br>
+
+Prodi          : <select name="iprodi" size="1"> 
+      <option value="Teknik Industri"> Teknik Industri </option> 
+      <option value="Teknik Pangan"> Teknik Pangan </option> 
+      <option value="Teknik Kimia"> Teknik Kimia </option> 
+      <option value="Teknik Elektro"> Teknik Elektro </option> 
+      <option value="Informatika"> Informatika </option></select> <br>
+
+Keterangan     : <textarea name="iket" rows="4" cols="40"></textarea>
+</td></pre>
+<td width="50%"><pre>
+Nama            : <input type="text" size="30" name="onama"> <br>
+NIM             : <input type="text" size="11" name="onim"> <br>
+Agama           : <input type="text" size="11" name="oagama"> <br>
+Jenis Kelamin   : <input type="text" size="11" name="ojenis"> <br>
+Prodi           : <input type="text" size="20" name="oprodi"> <br>
+Keterangan      : <textarea name="oket" rows="4" cols="40"></textarea> 
+</td><pre>
+</tr>
+<tr>
+<td width="100%" colspan="2">
+<center>
+<INPUT TYPE="button" value="Kirim" onclick="biodata()">
+<INPUT TYPE="reset" value="Ulang">
+</center></td>
+</tr>
+</table>
+</FORM>
+</BODY>
+</HTML>
