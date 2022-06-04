@@ -1,0 +1,42 @@
+<HTML>
+<HEAD><TITLE>Latihan Percabangan JavaScript</TITLE></HEAD>
+<BODY>
+<div id="tampil"></div>
+<SCRIPT language="JavaScript">
+<!--
+function biodata(){
+var nama = (document.fform.inama.value);
+var nim = (document.fform.inim.value);
+var agama = (document.fform.iagama.value);
+var jenis = (document.fform.ijenis.value);
+var prodi = (document.fform.iprodi.value);
+var ket = (document.fform.iket.value);
+document.fform.onama.value=nama;
+document.fform.onim.value=nim;
+document.fform.oagama.value=agama;
+document.fform.ojenis.value=jenis;
+document.fform.oprodi.value=prodi;
+document.fform.oket.value=ket;
+}
+function warna(pilihan){
+	document.bgColor=pilihan;
+}
+
+
+//--></SCRIPT>
+<CENTER><p><b>PILIH WARNA LATAR BELAKANG</b> </p>
+    <FORM>
+	<INPUT TYPE="button" VALUE="Biru" onClick="warna('lightblue')">
+	<INPUT TYPE="button" VALUE="Pink" onClick="warna('pink')">
+	<INPUT TYPE="button" VALUE="Coklat" onClick="warna('burlywood')">
+	<INPUT TYPE="button" VALUE="Kelabu" onClick="warna('darkgray')">
+	<INPUT TYPE="button" VALUE="Oranye" onClick="warna('peachpuff')">
+	<INPUT TYPE="button" VALUE="Putih" onClick="warna('white')">
+</FORM>  
+    </CENTER>
+
+<FORM NAME ="fform">
+<table border="1" align="center"width="70%">
+<tr>
+<td width="100%" colspan="2"><H2 ALIGN="center">Biodata Mahasiswa</H2></td>
+</tr>
